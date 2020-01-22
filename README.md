@@ -3,7 +3,7 @@ Aplicação do Girassol com a framework Qt e html, além do microcontrolador ESP
 ## Sumário
 * [O que é o Girassol?](https://github.com/scarletalex/Girassol/blob/master/README.md#o-que-%C3%A9-girassol)
 * [Manual do Usuário](https://github.com/scarletalex/Girassol/blob/master/README.md#manual-do-usu%C3%A1rio)
-  * [Como Funciona o Girassol?](https://github.com/calebeof/ThermoBeer#como-funciona-o-thermobeer)
+  * [Como Funciona o Girassol?](https://github.com/scarletalex/Girassol/blob/master/README.md#como-funciona-o-girassol)
   * [Como adquirir o Girassol?](https://github.com/calebeof/ThermoBeer#como-adquirir-o-thermobeer)
   * [Utilizando o software do Girassol](https://github.com/calebeof/ThermoBeer#utilizando-o-software-do-thermobeer)
     * [Monitorando a potência](https://github.com/calebeof/ThermoBeer#monitorando-a-temperatura)
