@@ -9,12 +9,12 @@ Aplicação do Girassol com a framework Qt e html, além do microcontrolador ESP
     * [Monitorando a potência](https://github.com/scarletalex/Girassol/blob/master/README.md#monitorando-a-pot%C3%AAncia)
   * [Utilizando o site do Girassol](https://github.com/scarletalex/Girassol/blob/master/README.md#utilizando-o-site-do-girassol)
     * [Monitorando a potência com os valores](https://github.com/scarletalex/Girassol/blob/master/README.md#alterando-o-estado-da-placa)
-    * [Alterando o estado da placa](https://github.com/calebeof/ThermoBeer#alterando-o-estado-do-rel%C3%A9)
-  * [Informações técnicas](https://github.com/calebeof/ThermoBeer#informa%C3%A7%C3%B5es-t%C3%A9cnicas)
-    * [Materiais](https://github.com/calebeof/ThermoBeer#materiais)
-    * [O Circuito](https://github.com/calebeof/ThermoBeer#o-circuito)
-    * [A Página Web](https://github.com/calebeof/ThermoBeer#a-p%C3%A1gina-web)
-    * [O Software para Desktop](https://github.com/calebeof/ThermoBeer#o-software-para-desktop)
+    * [Alterando o estado da placa](https://github.com/scarletalex/Girassol/blob/master/README.md#alterando-o-estado-da-placa)
+  * [Informações técnicas](https://github.com/scarletalex/Girassol/blob/master/README.md#informa%C3%A7%C3%B5es-t%C3%A9cnicas)
+    * [Materiais](https://github.com/scarletalex/Girassol/blob/master/README.md#materiais)
+    * [O Circuito](https://github.com/scarletalex/Girassol/blob/master/README.md#o-circuito)
+    * [A Página Web](https://github.com/scarletalex/Girassol/blob/master/README.md#a-p%C3%A1gina-web)
+    * [O Software para Desktop](https://github.com/scarletalex/Girassol/blob/master/README.md#o-software-para-desktop)
     
 ## O que é Girassol?
 
