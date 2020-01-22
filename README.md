@@ -16,4 +16,16 @@ Aplicação do Girassol com a framework Qt e html, além do microcontrolador ESP
     * [A Página Web](https://github.com/calebeof/ThermoBeer#a-p%C3%A1gina-web)
     * [O Software para Desktop](https://github.com/calebeof/ThermoBeer#o-software-para-desktop)
     
-# O que é Girassol?
+## O que é Girassol?
+
+## Manual do Usuário
+
+### Como Funciona o Girassol?
+
+### Como adquirir o Girassol?
+
+### Utilizando o software do Girassol
+
+#### Monitorando a potência
+
+### Utilizando o site do Girassol
