@@ -8,8 +8,8 @@ Aplicação do Girassol com a framework Qt e html, além do microcontrolador ESP
   * [Utilizando o software do Girassol](https://github.com/scarletalex/Girassol/blob/master/README.md#utilizando-o-software-do-girassol)
     * [Monitorando a potência](https://github.com/scarletalex/Girassol/blob/master/README.md#monitorando-a-pot%C3%AAncia)
   * [Utilizando o site do Girassol](https://github.com/scarletalex/Girassol/blob/master/README.md#utilizando-o-site-do-girassol)
-    * [Monitorando a potência com os limites](https://github.com/calebeof/ThermoBeer#monitorando-a-temperatura-com-os-limites)
-    * [Alterando o estado do relé](https://github.com/calebeof/ThermoBeer#alterando-o-estado-do-rel%C3%A9)
+    * [Monitorando a potência com os valores](https://github.com/calebeof/ThermoBeer#monitorando-a-temperatura-com-os-limites)
+    * [Alterando o estado da placa](https://github.com/calebeof/ThermoBeer#alterando-o-estado-do-rel%C3%A9)
   * [Informações técnicas](https://github.com/calebeof/ThermoBeer#informa%C3%A7%C3%B5es-t%C3%A9cnicas)
     * [Materiais](https://github.com/calebeof/ThermoBeer#materiais)
     * [O Circuito](https://github.com/calebeof/ThermoBeer#o-circuito)
@@ -29,3 +29,18 @@ Aplicação do Girassol com a framework Qt e html, além do microcontrolador ESP
 #### Monitorando a potência
 
 ### Utilizando o site do Girassol
+
+#### Monitorando a potência com os valores
+
+#### Alterando o estado da placa
+
+### Informações Técnicas
+
+#### Materiais
+
+#### O Circuito
+
+#### A Página Web
+
+#### O Software para Desktop
+
