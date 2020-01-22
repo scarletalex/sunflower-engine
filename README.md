@@ -18,6 +18,10 @@ Aplicação do Girassol com a framework Qt e html, além do microcontrolador ESP
     
 ## O que é Girassol?
 
+Hodiernamente, precisa transformar nossa matriz energética limpa (solar) e global. Tipicamente os painéis solares são instalados com a face voltada para norte ou sul cartográfico (dependendo do hemisfério onde se encontra) e com uma inclinação abaixo da latitude local. Com isso, há garantia que a produção energética anual seja boa, mas não significa que os painéis estejam gerando tanta energia quanto possível. Isso acontece devido ao fato que as células que compõe um painel solar só atingem seu pico de produção quando o ângulo de incidência dos raios solares é perpendicular à superfície desta célula. 
+
+Com efeito, a proposta da nossa maquina é as célular da placa está voltada ao sol a todo momento, rastreando-o.
+
 ## Manual do Usuário
 
 ### Como Funciona o Girassol?
