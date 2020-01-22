@@ -2,19 +2,19 @@
 Aplicação do Sunflower-engine com a framework Qt e html, além do microcontrolador ESP8266.
 ## Sumário
 * [O que é o Sunflower engine?](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-que-%C3%A9-sunflower-engine)
-* [Manual do Usuário](https://github.com/scarletalex/Girassol/blob/master/README.md#manual-do-usu%C3%A1rio)
-  * [Como Funciona o Sunflower engine?](https://github.com/scarletalex/Girassol/blob/master/README.md#como-funciona-o-girassol)
+* [Manual do Usuário](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#manual-do-usu%C3%A1rio)
+  * [Como Funciona o Sunflower engine?](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#como-funciona-o-sunflower-engine)
   * [Como adquirir o Sunflower engine?](https://github.com/scarletalex/Girassol/blob/master/README.md#como-adquirir-o-girassol)
   * [Utilizando o software do Sunflower engine](https://github.com/scarletalex/Girassol/blob/master/README.md#utilizando-o-software-do-girassol)
-    * [Monitorando a potência](https://github.com/scarletalex/Girassol/blob/master/README.md#monitorando-a-pot%C3%AAncia)
-  * [Utilizando o site do Sunflower engine](https://github.com/scarletalex/Girassol/blob/master/README.md#utilizando-o-site-do-girassol)
-    * [Monitorando a potência com os valores](https://github.com/scarletalex/Girassol/blob/master/README.md#alterando-o-estado-da-placa)
-    * [Alterando o estado da placa](https://github.com/scarletalex/Girassol/blob/master/README.md#alterando-o-estado-da-placa)
-  * [Informações técnicas](https://github.com/scarletalex/Girassol/blob/master/README.md#informa%C3%A7%C3%B5es-t%C3%A9cnicas)
-    * [Materiais](https://github.com/scarletalex/Girassol/blob/master/README.md#materiais)
-    * [O Circuito](https://github.com/scarletalex/Girassol/blob/master/README.md#o-circuito)
-    * [A Página Web](https://github.com/scarletalex/Girassol/blob/master/README.md#a-p%C3%A1gina-web)
-    * [O Software para Desktop](https://github.com/scarletalex/Girassol/blob/master/README.md#o-software-para-desktop)
+    * [Monitorando a potência](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#monitorando-a-pot%C3%AAncia)
+  * [Utilizando o site do Sunflower engine](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#utilizando-o-site-do-sunflower-engine)
+    * [Monitorando a potência com os valores](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#monitorando-a-pot%C3%AAncia-com-os-valores)
+    * [Alterando o estado da placa](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#alterando-o-estado-da-placa)
+  * [Informações técnicas](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#informa%C3%A7%C3%B5es-t%C3%A9cnicas)
+    * [Materiais](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#materiais)
+    * [O Circuito](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-circuito)
+    * [A Página Web](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#a-p%C3%A1gina-web)
+    * [O Software para Desktop](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-software-para-desktop)
     
 ## O que é Sunflower engine?
 
