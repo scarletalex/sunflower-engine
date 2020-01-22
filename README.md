@@ -1,7 +1,7 @@
 # Sunflower engine
 Aplicação do Sunflower-engine com a framework Qt e html, além do microcontrolador ESP8266.
 ## Sumário
-* [O que é o Sunflower engine?](https://github.com/scarletalex/Girassol/blob/master/README.md#o-que-%C3%A9-girassol)
+* [O que é o Sunflower engine?](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-que-%C3%A9-sunflower-engine)
 * [Manual do Usuário](https://github.com/scarletalex/Girassol/blob/master/README.md#manual-do-usu%C3%A1rio)
   * [Como Funciona o Sunflower engine?](https://github.com/scarletalex/Girassol/blob/master/README.md#como-funciona-o-girassol)
   * [Como adquirir o Sunflower engine?](https://github.com/scarletalex/Girassol/blob/master/README.md#como-adquirir-o-girassol)
