@@ -1,5 +1,5 @@
 # Sunflower Engine
-Aplicação do Sunflower Engine com a framework Qt e html, além do microcontrolador ESP8266.
+Aplicação do Sunflower Engine com a framework Qt e HTML, além do microcontrolador ESP8266.
 ## Sumário
 * [O que é o Sunflower Engine?](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-que-%C3%A9-sunflower-engine)
 * [Manual do Usuário](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#manual-do-usu%C3%A1rio)
@@ -21,13 +21,13 @@ Aplicação do Sunflower Engine com a framework Qt e html, além do microcontrol
     
 ## O que é Sunflower Engine?
 
-Hodiernamente, há a necessidade de tornar a matriz energética global cada vez mais sustentável. E os painéis fotovoltaicos são o jeito mais fácil de obter energia limpa e renovável, pois utilizam dos raios solares para conversão direta em energia elétrica. 
+ Hodiernamente, há a necessidade de tornar a matriz energética global cada vez mais sustentável. E os painéis fotovoltaicos são o jeito mais fácil de obter energia limpa e renovável, pois utilizam dos raios solares para conversão direta em energia elétrica. 
 
  ![painel](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/sequence6_dU9SXFLBCy.gif)
 
-Os painéis fixos são a maneira mais barata para isso. Tipicamente os painéis solares são instalados com a face voltada para norte ou sul cartográfico (dependendo do hemisfério onde se encontra) e com uma inclinação abaixo da latitude local. Isso garante que a produção energética anual seja boa, mas não significa que os painéis estejam gerando tanta energia quanto possível. Isso acontece devido ao fato que as células que compõe um painel solar só atingem seu pico de produção quando o ângulo de incidência dos raios solares é perpendicular à superfície desta célula. 
+ Os painéis fixos são a maneira mais barata para isso. Tipicamente os painéis solares são instalados com a face voltada para norte ou sul cartográfico (dependendo do hemisfério onde se encontra) e com uma inclinação abaixo da latitude local. Isso garante que a produção energética anual seja boa, mas não significa que os painéis estejam gerando tanta energia quanto possível. Isso acontece devido ao fato que as células que compõe um painel solar só atingem seu pico de produção quando o ângulo de incidência dos raios solares é perpendicular à superfície desta célula. 
 
-E essa é a proposta do nosso projeto, fazer com que as células estejam voltadas para o Sol a todo momento, rastreando-o. O Sunflower Engine é um rastreador solar que buscará maximizar a eficiência da produção energética da célula fotovoltaica. Além disso, é possível medir sua eficiência monitorando a corrente e tensão para adquirir a potência produzida.
+ E essa é a proposta do nosso projeto, fazer com que as células estejam voltadas para o Sol a todo momento, rastreando-o. O Sunflower Engine é um rastreador solar que buscará maximizar a eficiência da produção energética da célula fotovoltaica. Além disso, é possível medir sua eficiência monitorando a corrente e tensão para adquirir a potência produzida.
 
 
 
@@ -37,9 +37,9 @@ E essa é a proposta do nosso projeto, fazer com que as células estejam voltada
 
  ![prototipo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/image2.jpeg)
  
-Existem diversas formas de seguir o Sol. Alguns sistemas se destacam por terem a possibilidade de executar múltiplos movimentos.
+ Existem diversas formas de seguir o Sol. Alguns sistemas se destacam por terem a possibilidade de executar múltiplos movimentos.
 Com um eixo, é possível acompanhar a estrela ao longo do dia. Esse sistema é o mais adotado atualmente, principalmente em fazendas solares (usinas) onde mais se empregam essa tecnologia.
-Já com dois eixos é possível compensar a inclinação da terra ao longo das estações. Isso torna o sistema ainda mais produtivo.
+ Já com dois eixos é possível compensar a inclinação da terra ao longo das estações. Isso torna o sistema ainda mais produtivo.
 Nosso protótipo conta com dois eixos. Isso significa que ele é capaz de se inclinar para quatro direções diferentes, além disso, esses movimentos são coordenados por quatro maneiras diferentes:
 
  #### Modo Demo
@@ -56,8 +56,7 @@ Nosso protótipo conta com dois eixos. Isso significa que ele é capaz de se inc
  
  #### Modo Fotossensível
 
-No modo fotossensível, os fotossensores posicionados nas extremidades do painel são responsáveis por informar o microcontrolador a direção da fonte de luz.
-Cada ldr está em série com resistor de 10k atuando como divisores de tensão. Quando a intensidade da luz é máxima, a resistência do ldr é desprezível e a assim, a corrente total flui para o pino analógico do arduino. Quando a intensidade da luz cai, a resistência do ldr aumenta proporcionalmente provocando uma queda de tensão que deixa de chegar ao microcontrolador. 
+ No modo fotossensível, os fotossensores (LDRs) posicionados nas extremidades do painel são responsáveis por informar o microcontrolador a direção da fonte de luz, e, consequentemente, responsáveis pela movimentação da estrutura do painel fotovoltaico para a posição onde a incidência solar é maior.
 
 ### Utilizando o software do Sunflower engine
 ![Demo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/demo.png)
