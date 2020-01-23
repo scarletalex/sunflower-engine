@@ -42,19 +42,19 @@ Com um eixo, é possível acompanhar a estrela ao longo do dia. Esse sistema é 
  Já com dois eixos é possível compensar a inclinação da terra ao longo das estações. Isso torna o sistema ainda mais produtivo.
 Nosso protótipo conta com dois eixos. Isso significa que ele é capaz de se inclinar para quatro direções diferentes, além disso, esses movimentos são coordenados por quatro maneiras diferentes:
 
- #### Modo Demo
+ ##### Modo Demo
  
   No modo Demo, o rastreador realiza um movimento apenas para fins de demonstração, como o próprio nome diz. Trata-se de um movimento da estrutura da célula fotovoltaica pelo servo motor apenas de um lado para outro, respeitando angulação máxima de 35° para cada lado, sem preocupação com a melhor posição para a produção de energia elétrica.
   
- #### Modo Cronológico
+ ##### Modo Cronológico
 
  No modo cronológico, mapeamos a trajetória do sol no céu em uma escala de graus/minutos. Utilizamos o relógio interno do arduino para contar um intervalo. A cada lapso de tempo, o arduino envia um sinal para servo mover a estrutura em um grau. Uma vez que o movimento do sol é previsível, podemos descartar o uso de sensores externos e conseguir o mesmo efeito gastando menos energia e reduzindo componentes. 
  
- #### Modo Fixo
+ ##### Modo Fixo
  
  No modo fixo, a estrutura da célula fotovoltaica é fixada em uma posição estacionária em que ao longo do dia, irá receber a maior incidência de luz possível. Tipicamente os painéis solares são instalados com a face voltada para norte ou sul cartográfico (dependendo do hemisfério onde se encontra) e com uma inclinação abaixo da latitude local. Assim, o painel deverá se posicionar voltado para o hemisfério norte, com inclinação de 7 graus.
  
- #### Modo Fotossensível
+ ##### Modo Fotossensível
 
  No modo fotossensível, os fotossensores (LDRs) posicionados nas extremidades do painel são responsáveis por informar ao microcontrolador a direção onde a incidência solar é mais instensa, e, consequentemente, responsáveis pela movimentação da estrutura do painel fotovoltaico.
 
