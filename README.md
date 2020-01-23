@@ -71,16 +71,16 @@ Cada ldr está em série com resistor de 10k atuando como divisores de tensão. 
 
 #### Materiais
 
-##### 2 Servos SG90 
-##### Microcontrolador ESP8266
-##### 4 Ldrs 10mm
-##### 4 Resistores de 10㏀
-##### 1 Resistor 220Ω
-##### 1 Sensor de Tensão 
-##### Mini protoboard
-##### Jumpers
-##### Madeira 
-##### Parafusos 
+- [2 Servos SG90] 
+- [Microcontrolador ESP8266]
+- [4 Ldrs 10mm]
+- [4 Resistores de 10㏀]
+- [1 Resistor 220Ω]
+- [1 Sensor de Tensão] 
+- [Mini protoboard]
+- [Jumpers]
+- [Madeira] 
+- [Parafusos] 
 
 
 #### O Circuito
