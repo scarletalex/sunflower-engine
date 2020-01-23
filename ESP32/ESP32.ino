@@ -51,16 +51,16 @@ void setup() {
 
     Serial.begin(115200);                       
 
-    while(!iot.webStart());
+    iot.webStart();
     
-    iot.spySpeed(500, 500); //serial - web
+    iot.spySpeed(500, 500); 
 
     Atuadores.setSpeeds(70, 100, 30);
     
-    Atuadores.limiteAxisX(25, 30);
-    Atuadores.limiteAxisY(20, 68);
+    Atuadores.limiteAxisX(25, 90);
+    Atuadores.limiteAxisY(20, 90);
 
-    LDR.sensibilidade(1000);
+    LDR.sensibilidade(50);
     Shunt.velocidadeLeitura(1000);
     
 }
@@ -69,10 +69,8 @@ void loop(){
 
   LDR.leitura();
   Shunt.leitura();
-
   iot.iotSpy(Shunt);
-
-   
+  
   switch (iot.getModo()){
       case 1: foto();   break;
       case 2: crono();  break;
@@ -114,14 +112,18 @@ void foto(){
 
 void crono(){
     
+   
     Atuadores.moveAxisX(Atuadores.getNormalAxisX());
   
-    if((millis() - _tempKrono) >= Atuadores.getCronoV()){
+    if((millis() - _tempKrono) >= 1000){
         _tempKrono = millis();
         _angleAxisY++;
+         
     }
 
     Atuadores.moveAxisY(_angleAxisY); 
+
+   
 }
 
 void demo(){
@@ -151,6 +153,6 @@ void demo(){
 }
 
 void fixo(){
-     Atuadores.moveAxisX(Atuadores.getNormalAxisX());
+    // Atuadores.moveAxisX(Atuadores.getNormalAxisX());
      Atuadores.moveAxisY(Atuadores.getNormalAxisY());
 }

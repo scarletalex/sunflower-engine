@@ -56,7 +56,6 @@ void IOT::tradutor(String spy){
     }
 }
 
-
 String IOT::jsonMake(POWER temp){
   
   double watts = temp.getPower();

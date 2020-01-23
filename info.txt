@@ -3,3 +3,9 @@ https://git.heroku.com/stellar-engine.git
 https://stellar-engine.herokuapp.com/
 
 heroku pass - #Star34483
+
+heroku git:remote -a meown-engine
+git init .
+git add .
+git commit -m "sim"
+git push heroku master

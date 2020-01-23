@@ -3,40 +3,28 @@
 TWO_AXIS::TWO_AXIS(){}
 
 TWO_AXIS::TWO_AXIS(int PinServoAxisX, int PinServoAxisY){
-  _PinServoAxisX = PinServoAxisX;
-  _PinServoAxisY = PinServoAxisY;
+    _PinServoAxisX = PinServoAxisX;
+    _PinServoAxisY = PinServoAxisY;
+    _ServoAxisX.setPeriodHertz(50); // standard 50 hz servo
+    _ServoAxisY.setPeriodHertz(50); // standard 50 hz servo
+    _ServoAxisX.attach(PinServoAxisX, 1000, 2000); // Attach the servo after it has been detatched
+    _ServoAxisY.attach(PinServoAxisY, 1000, 2000); // Attach the servo after it has been detatched
 }
 
 void TWO_AXIS::limiteAxisX(int Mov, int Med){
-
   if(_PinServoAxisX != 0){
       _limiteMaxAxisX = Med + Mov;
       _limiteMinAxisX = Med - Mov;
       _angleNormalAxisX = Med;
-    
-      _ServoAxisX.attach(
-          _PinServoAxisX, 
-          Servo::CHANNEL_NOT_ATTACHED, 
-          _limiteMinAxisX,
-          _limiteMaxAxisX
-      );
   }
 }
 
 void TWO_AXIS::limiteAxisY(int Mov, int Med){
-      if(_PinServoAxisY != 0){
-        
-        _limiteMaxAxisY = Med + Mov;
-        _limiteMinAxisY = Med - Mov;
-        _angleNormalAxisY = Med;
-  
-        _ServoAxisY.attach(
-            _PinServoAxisY, 
-            Servo::CHANNEL_NOT_ATTACHED, 
-            _limiteMinAxisY,
-            _limiteMaxAxisY
-        );
-      }
+  if(_PinServoAxisY != 0){
+    _limiteMaxAxisY = Med + Mov;
+    _limiteMinAxisY = Med - Mov;
+    _angleNormalAxisY = Med;
+  }
 }
 
 

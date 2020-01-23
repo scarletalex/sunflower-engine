@@ -2,7 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
+#include <QUrl>
+#include <QDesktopServices>
 #include <QSerialPort>
 #include <QSerialPortInfo>
 #include <QJsonDocument>
@@ -34,16 +35,17 @@ private slots:
     void dadosRecebidos();
     void on_btnPlug_clicked();
     void on_btnModo_activated(const QString &arg1);
+    void on_manual_clicked();
 
 private:
     Ui::MainWindow *ui;
     bool plugStatus = false;
     QString text[4] = {
 
-        "Neste modo, o rastreador solar utiliza sensores para calcular a posição da luz",
-        "Já nesse, um relogio interno controla os movimentos para acompanhar o sol",
-        "No modo Demo, o rastreador execulta movimentos para demonstrar seu funcionamento",
-        "No fixo, o rastreador imita um painel solar tradicional instalado no telhado"
+        "Neste modo, o rastreador solar utiliza sensores para calcular a posição da luz Solar",
+        "Neste modo, um relógio interno controla os movimentos para acompanhar o sol",
+        "Neste modo, o rastreador executa movimentos para demonstrar seu funcionamento",
+        "Neste modo, o rastreador imita um painel solar tradicional instalado fixo no telhado"
     };
 
 };

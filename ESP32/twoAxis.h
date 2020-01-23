@@ -2,7 +2,8 @@
 #define TWO_AXIS_H
 
 #include "Arduino.h"
-#include <Servo.h>
+#include <ESP32Servo.h>
+
 
 class TWO_AXIS : public Servo {
 

@@ -7,7 +7,12 @@ from flask_cors import CORS
 app = Flask(__name__)
 socketio = SocketIO(app)
 CORS(app)
-dados = ""
+
+dados = {
+	"VOLT":"",
+	"AMPER":"",
+	"WATTS":""
+}
 
 
 @app.route("/")
@@ -22,6 +27,7 @@ def rota_upload():
 
 @app.route("/download", methods = ["GET"])
 def rota_download():
+	global dados
 	return jsonify(dados)
 
 if __name__ == "__main__":
