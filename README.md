@@ -30,7 +30,8 @@ Com efeito, a proposta da nossa maquina é as células da placa está voltada ao
 ### Como Funciona o Sunflower engine?
 
  ![prototipo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/image2.jpeg)
-O primeiro passo poderia ser dado para conseguir maximizar a eficiência da tecnologia atual, não apenas do ponto de vista de consumo, mas também da produção que é a função de um rastreador solar. 
+ 
+O primeiro passo a ser dado para conseguir maximizar a eficiência da tecnologia atual, não apenas do ponto de vista de consumo, mas também da produção que é a função de um rastreador solar. 
 Para isso, será disponibilizado um site no qual haverá as informações da corrente, tensão e potência da produzida durante o processo, medida por um sensor. 
 
  #### Modo Demo
@@ -38,8 +39,10 @@ Para isso, será disponibilizado um site no qual haverá as informações da cor
  ![Demo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/demo.png)
  
  #### Modo Cronológico
- 
+
 ![cronológico](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/cronologico.png)
+
+ No modo cronológico, mapeamos a trajetória do sol no céu em uma escala de graus/minutos. Utilizamos o relógio interno do arduino para contar um intervalo. A cada lapso de tempo, o arduino envia um sinal para servo mover a estrutura em um grau. Uma vez que o movimento do sol é altamente previsível, podemos descartar o uso de sensores externos e conseguir o mesmo efeito gastando menos energia e reduzindo componentes. 
  
  #### Modo Fixo
  
@@ -48,6 +51,9 @@ Para isso, será disponibilizado um site no qual haverá as informações da cor
  #### Modo Fotossensível
  
  ![fotossensível](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/fixo.png)
+ 
+No modo fotossensível, os fotossensores posicionados nas extremidades do painel são responsáveis por informar o microcontrolador a direção da fonte de luz.
+Cada ldr está em série com resistor de 10k atuando como divisores de tensão. Quando a intensidade da luz é máxima, a resistência do ldr é desprezível e a assim, a corrente total flui para o pino analógico do arduino. Quando a intensidade da luz cai, a resistência do ldr aumenta proporcionalmente provocando uma queda de tensão que deixa de chegar ao microcontrolador. 
 
 ### Utilizando o software do Sunflower engine
 
