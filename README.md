@@ -1,16 +1,16 @@
-# Sunflower engine
-Aplicação do Sunflower-engine com a framework Qt e html, além do microcontrolador ESP8266.
+# Sunflower Engine
+Aplicação do Sunflower Engine com a framework Qt e html, além do microcontrolador ESP8266.
 ## Sumário
-* [O que é o Sunflower engine?](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-que-%C3%A9-sunflower-engine)
+* [O que é o Sunflower Engine?](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-que-%C3%A9-sunflower-engine)
 * [Manual do Usuário](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#manual-do-usu%C3%A1rio)
-  * [Como Funciona o Sunflower engine?](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#como-funciona-o-sunflower-engine)
+  * [Como Funciona o Sunflower Engine?](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#como-funciona-o-sunflower-engine)
     * [Modo Demo](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#modo-demo)
     * [Modo Cronológico](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#modo-cronol%C3%B3gico)
     * [Modo Fixo](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#modo-fixo)
     * [Modo rastreável](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#modo-rastre%C3%A1vel)
-  * [Utilizando o software do Sunflower engine](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#utilizando-o-software-do-sunflower-engine)
+  * [Utilizando o software do Sunflower Engine](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#utilizando-o-software-do-sunflower-engine)
     * [Monitorando a potência](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#monitorando-a-pot%C3%AAncia)
-  * [Utilizando o site do Sunflower engine](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#utilizando-o-site-do-sunflower-engine)
+  * [Utilizando o site do Sunflower Engine](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#utilizando-o-site-do-sunflower-engine)
     * [Monitorando a potência com os valores](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#monitorando-a-pot%C3%AAncia-com-os-valores)
     * [Alterando o estado da placa](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#alterando-o-estado-da-placa)
   * [Informações técnicas](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#informa%C3%A7%C3%B5es-t%C3%A9cnicas)
@@ -19,11 +19,17 @@ Aplicação do Sunflower-engine com a framework Qt e html, além do microcontrol
     * [A Página Web](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#a-p%C3%A1gina-web)
     * [O Software para Desktop](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-software-para-desktop)
     
-## O que é Sunflower engine?
+## O que é Sunflower Engine?
 
-Hodiernamente, precisa transformar nossa matriz energética limpa (solar) e global. Tipicamente os painéis solares são instalados com a face voltada para norte ou sul cartográfico (dependendo do hemisfério onde se encontra) e com uma inclinação abaixo da latitude local. Com isso, há garantia que a produção energética anual seja boa, mas não significa que os painéis estejam gerando tanta energia quanto possível. Isso acontece devido ao fato que as células que compõe um painel solar só atingem seu pico de produção quando o ângulo de incidência dos raios solares é perpendicular à superfície desta célula. 
+Hodiernamente, há a necessidade de tornar a matriz energética global cada vez mais sustentável. E os painéis fotovoltaicos são o jeito mais fácil de obter energia limpa e renovável, pois utilizam dos raios solares para conversão direta em energia elétrica. 
 
-Com efeito, a proposta da nossa maquina é as células da placa está voltada ao sol a todo momento, rastreando-o. Além disso, medir sua eficiência monitorando a corrente e tensão para adquirir a potência produzida.
+ ![painel](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/sequence6_dU9SXFLBCy.gif)
+
+Os painéis fixos são a maneira mais barata para isso. Tipicamente os painéis solares são instalados com a face voltada para norte ou sul cartográfico (dependendo do hemisfério onde se encontra) e com uma inclinação abaixo da latitude local. Isso garante que a produção energética anual seja boa, mas não significa que os painéis estejam gerando tanta energia quanto possível. Isso acontece devido ao fato que as células que compõe um painel solar só atingem seu pico de produção quando o ângulo de incidência dos raios solares é perpendicular à superfície desta célula. 
+
+E essa é a proposta do nosso projeto, fazer com que as células estejam voltadas para o Sol a todo momento, rastreando-o. O Sunflower Engine é um rastreador solar que buscará maximizar a eficiência da produção energética da célula fotovoltaica. Além disso, é possível medir sua eficiência monitorando a corrente e tensão para adquirir a potência produzida.
+
+
 
 ## Manual do Usuário
 
