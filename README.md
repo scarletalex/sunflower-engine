@@ -29,19 +29,25 @@ Com efeito, a proposta da nossa maquina é as células da placa está voltada ao
 
 ### Como Funciona o Sunflower engine?
 
- ![fprototipo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/prototipo.jpeg)
+ ![prototipo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/image2.jpeg)
 O primeiro passo poderia ser dado para conseguir maximizar a eficiência da tecnologia atual, não apenas do ponto de vista de consumo, mas também da produção que é a função de um rastreador solar. 
 Para isso, será disponibilizado um site no qual haverá as informações da corrente, tensão e potência da produzida durante o processo, medida por um sensor. 
 
  #### Modo Demo
  
+ ![Demo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/demo.png)
+ 
  #### Modo Cronológico
+ 
+![cronológico](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/cronologico.png)
  
  #### Modo Fixo
  
- #### Modo rastreável
-
-### Como adquirir o Sunflower engine?
+ ![Fixo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/fixo.png)
+ 
+ #### Modo Fotossensível
+ 
+ ![fotossensível](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/fixo.png)
 
 ### Utilizando o software do Sunflower engine
 
