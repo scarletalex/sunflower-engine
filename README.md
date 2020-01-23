@@ -59,12 +59,16 @@ Nosso protótipo conta com dois eixos. Isso significa que ele é capaz de se inc
  No modo fotossensível, os fotossensores (LDRs) posicionados nas extremidades do painel são responsáveis por informar ao microcontrolador a direção onde a incidência solar é mais instensa, e, consequentemente, responsáveis pela movimentação da estrutura do painel fotovoltaico.
 
 ### Utilizando o software do Sunflower engine
+
 ![Demo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/demo.png)
 ![cronológico](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/cronologico.png)
 ![Fixo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/fixo.png)
 ![fotossensível](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/fixo.png)
 
-#### Monitorando a potência
+A tela inicial contém os modos de funcionamento do projeto para ser escolhido. Quando selecionado, apresenta uma breve explanação do funcionamento.
+
+
+##### Monitorando a potência
 
 ### Utilizando o site do Sunflower engine
 
