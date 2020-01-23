@@ -48,6 +48,8 @@ Para isso, será disponibilizado um site no qual haverá as informações da cor
  
  ![Fixo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/fixo.png)
  
+ Os painéis fixos são a maneira mais barata. Tipicamente os painéis solares são instalados com a face voltada para norte ou sul cartográfico (dependendo do hemisfério onde se encontra) e com uma inclinação abaixo da latitude local. Ademais, a latitude utilizada para nossa região é de 7 graus
+ 
  #### Modo Fotossensível
  
  ![fotossensível](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/fixo.png)
@@ -68,6 +70,18 @@ Cada ldr está em série com resistor de 10k atuando como divisores de tensão. 
 ### Informações Técnicas
 
 #### Materiais
+
+##### 2 Servos SG90 
+##### Microcontrolador ESP8266
+##### 4 Ldrs 10mm
+##### 4 Resistores de 10㏀
+##### 1 Resistor 220Ω
+##### 1 Sensor de Tensão 
+##### Mini protoboard
+##### Jumpers
+##### Madeira 
+##### Parafusos 
+
 
 #### O Circuito
 
