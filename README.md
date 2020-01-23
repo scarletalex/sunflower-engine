@@ -52,11 +52,11 @@ Nosso protótipo conta com dois eixos. Isso significa que ele é capaz de se inc
  
  #### Modo Fixo
  
- No modo fixo, a estrutura da célula fotovoltaica é fixada em uma posição em que  painéis fixos são a maneira mais barata. Tipicamente os painéis solares são instalados com a face voltada para norte ou sul cartográfico (dependendo do hemisfério onde se encontra) e com uma inclinação abaixo da latitude local. Ademais, a latitude utilizada para nossa região é de 7 graus
+ No modo fixo, a estrutura da célula fotovoltaica é fixada em uma posição estacionária em que ao longo do dia, irá receber a maior incidência de luz possível. Tipicamente os painéis solares são instalados com a face voltada para norte ou sul cartográfico (dependendo do hemisfério onde se encontra) e com uma inclinação abaixo da latitude local. Assim, o painel deverá se posicionar voltado para o hemisfério norte, com inclinação de 7 graus.
  
  #### Modo Fotossensível
 
- No modo fotossensível, os fotossensores (LDRs) posicionados nas extremidades do painel são responsáveis por informar o microcontrolador a direção da fonte de luz, e, consequentemente, responsáveis pela movimentação da estrutura do painel fotovoltaico para a posição onde a incidência solar é maior.
+ No modo fotossensível, os fotossensores (LDRs) posicionados nas extremidades do painel são responsáveis por informar ao microcontrolador a direção onde a incidência solar é mais instensa, e, consequentemente, responsáveis pela movimentação da estrutura do painel fotovoltaico.
 
 ### Utilizando o software do Sunflower engine
 ![Demo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/demo.png)
@@ -81,7 +81,7 @@ Nosso protótipo conta com dois eixos. Isso significa que ele é capaz de se inc
 - [4 Ldrs 10mm]
 - [4 Resistores de 10㏀]
 - [1 Resistor 220Ω]
-- [1 Sensor de Tensão] 
+- [1 Módulo Sensor de Tensão] 
 - [Mini protoboard]
 - [Jumpers]
 - [Madeira] 
