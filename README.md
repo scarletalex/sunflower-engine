@@ -42,59 +42,64 @@ Com um eixo, é possível acompanhar a estrela ao longo do dia. Esse sistema é 
  Já com dois eixos é possível compensar a inclinação da terra ao longo das estações. Isso torna o sistema ainda mais produtivo.
 Nosso protótipo conta com dois eixos. Isso significa que ele é capaz de se inclinar para quatro direções diferentes, além disso, esses movimentos são coordenados por quatro maneiras diferentes:
 
- ##### Modo Demo
+ ##### Modo Fotossensível
+
+ No modo fotossensível, os fotossensores (LDRs) posicionados nas extremidades do painel são responsáveis por informar ao microcontrolador a direção onde a incidência solar é mais instensa, e, consequentemente, responsáveis pela movimentação da estrutura do painel fotovoltaico.
  
-  No modo Demo, o rastreador realiza um movimento apenas para fins de demonstração, como o próprio nome diz. Trata-se de um movimento da estrutura da célula fotovoltaica pelo servo motor apenas de um lado para outro, respeitando angulação máxima de 35° para cada lado, sem preocupação com a melhor posição para a produção de energia elétrica.
-  
  ##### Modo Cronológico
 
  No modo cronológico, mapeamos a trajetória do sol no céu em uma escala de graus/minutos. Utilizamos o relógio interno do arduino para contar um intervalo. A cada lapso de tempo, o arduino envia um sinal para servo mover a estrutura em um grau. Uma vez que o movimento do sol é previsível, podemos descartar o uso de sensores externos e conseguir o mesmo efeito gastando menos energia e reduzindo componentes. 
  
+ ##### Modo Demo
+ 
+  No modo Demo, o rastreador realiza um movimento apenas para fins de demonstração, como o próprio nome diz. Trata-se de um movimento da estrutura da célula fotovoltaica pelo servo motor apenas de um lado para outro, respeitando angulação máxima de 35° para cada lado, sem preocupação com a melhor posição para a produção de energia elétrica.
+  
  ##### Modo Fixo
  
  No modo fixo, a estrutura da célula fotovoltaica é fixada em uma posição estacionária em que ao longo do dia, irá receber a maior incidência de luz possível. Tipicamente os painéis solares são instalados com a face voltada para norte ou sul cartográfico (dependendo do hemisfério onde se encontra) e com uma inclinação abaixo da latitude local. Assim, o painel deverá se posicionar voltado para o hemisfério norte, com inclinação de 7 graus.
- 
- ##### Modo Fotossensível
-
- No modo fotossensível, os fotossensores (LDRs) posicionados nas extremidades do painel são responsáveis por informar ao microcontrolador a direção onde a incidência solar é mais instensa, e, consequentemente, responsáveis pela movimentação da estrutura do painel fotovoltaico.
 
 ## Utilizando o software do Sunflower engine
 
 ##### Estabelecendo a conexão
- Para iniciar o funcionamento da máquina, deve-se abrir a segunda aba "Conexão" e selecionar a porta no qual o ESP32 está conectado ao dispositivo utilizado. Em seguida, selecionar a velocidade em que as informações serão passadas, onde a velocidade padrão ("baudrate") da placa é 115200 bauds. Após isso, ao clicar em "Conectar" e a conexão for estabelecida, o status no topo mudará para "Conectado", caso contrário, permanecerá da mesma maneira com o status "Desconectado", até que o usuário clique novamente e uma nova tentativa de conexão for estabelecida.
+
+ Para iniciar o funcionamento da máquina, deve-se abrir a segunda aba "Conexão" e selecionar a porta no qual o ESP32 está conectado ao dispositivo utilizado. Em seguida, selecionar a velocidade em que as informações serão passadas, onde a velocidade padrão ("baudrate") da placa é 115200 bauds. Após isso, ao clicar em "Conectar" e a conexão serial for estabelecida, o status no topo mudará para "Conectado", caso contrário, permanecerá da mesma maneira com o status "Desconectado", até que o usuário clique novamente e uma nova tentativa de conexão for estabelecida.
 
 ![conexao](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/Conex%C3%A3o%5D.png)
 
 ##### Escolhendo o modo de funcionamento
+
  Na primeira aba, a tela inicial contém os modos de funcionamento do projeto para serem escolhidos. Quando selecionado um deles, é apresentada uma breve explanação do modo de funcionamento escolhido e mudará o estado de funcionamento da estrutura do projeto. Logo abaixo estão as telas quando o modo é escolhido. A máquina já está funcionando.
 
-![Demo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/demo.png)
+![fotossensível](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/fotossensivel.png)
 ![cronológico](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/cronologico.png)
+![Demo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/demo.png)
 ![Fixo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/fixo.png)
-![fotossensível](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/fixo.png)
+
 
 ##### Monitorando a potência
- A terceira aba apresentará os dados de potência, tensão e corrente produzidos pelo painel fotovoltaico em tempo real, caso a conexão esteja estabelecida.
+
+ A terceira aba apresentará os dados de potência, tensão e corrente produzidos pelo painel fotovoltaico em tempo real, caso a conexão serial esteja estabelecida.
  
  ![potencia](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/dados.png)
  
 ## Utilizando o site do Sunflower engine
 
-O site do Sunflower Engine permite que o usuário tenha acesso remoto às informações atualizadas de produção da máquina, apenas sendo necessário conexão com a internet. Existem três expositores, um para cada informação, sendo eles: Tensão, Corrente e Potência. A partir dessas informações, o usuário pode decidir modificar o modo de funcionamento da estrutura do projeto.
+O site do Sunflower Engine permite que o usuário tenha acesso remoto às informações atualizadas de produção da máquina, apenas sendo necessário conexão com a internet. Existem três expositores, um para cada informação, sendo eles: Tensão, Corrente e Potência. A partir dessas informações, o usuário pode decidir modificar o modo de funcionamento da estrutura do projeto por meio do software desenvolvido e anteriormente explicado.
+
+![web](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/web.png)
+
 ### Informações Técnicas
 
 #### Materiais
 
-- [2 Servos SG90] 
 - [Microcontrolador ESP32]
-- [4 Ldrs 10mm]
-- [4 Resistores de 10㏀]
-- [1 Resistor 220Ω]
-- [1 Módulo Sensor de Tensão] 
+- [Célula Fotovoltaica]
+- [Servos SG90]
+- [LDR]
+- [LED]
+- [Módulo Sensor de Tensão] 
 - [Mini protoboard]
-- [Jumpers]
-- [Madeira] 
-- [Parafusos] 
+
 
 
 #### O Circuito
