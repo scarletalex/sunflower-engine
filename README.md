@@ -1,5 +1,5 @@
 # Sunflower Engine
-Aplicação do Sunflower Engine com a framework Qt e HTML, além do microcontrolador ESP8266.
+Aplicação do Sunflower Engine com a framework Qt e HTML, além do microcontrolador ESP32.
 ## Sumário
 * [O que é o Sunflower Engine?](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-que-%C3%A9-sunflower-engine)
 * [Manual do Usuário](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#manual-do-usu%C3%A1rio)
@@ -58,24 +58,29 @@ Nosso protótipo conta com dois eixos. Isso significa que ele é capaz de se inc
 
  No modo fotossensível, os fotossensores (LDRs) posicionados nas extremidades do painel são responsáveis por informar ao microcontrolador a direção onde a incidência solar é mais instensa, e, consequentemente, responsáveis pela movimentação da estrutura do painel fotovoltaico.
 
-### Utilizando o software do Sunflower engine
+## Utilizando o software do Sunflower engine
+
+##### Estabelecendo a conexão
+ Para iniciar o funcionamento da máquina, deve-se abrir a segunda aba "Conexão" e selecionar a porta no qual o ESP32 está conectado ao dispositivo utilizado. Em seguida, selecionar a velocidade em que as informações serão passadas, onde a velocidade padrão ("baudrate") da placa é 115200 bauds. Após isso, ao clicar em "Conectar" e a conexão for estabelecida, o status no topo mudará para "Conectado", caso contrário, permanecerá da mesma maneira com o status "Desconectado", até que o usuário clique novamente e uma nova tentativa de conexão for estabelecida.
+
+![conexao](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/Conex%C3%A3o%5D.png)
+
+##### Escolhendo o modo de funcionamento
+ Na primeira aba, a tela inicial contém os modos de funcionamento do projeto para serem escolhidos. Quando selecionado um deles, é apresentada uma breve explanação do modo de funcionamento escolhido e mudará o estado de funcionamento da estrutura do projeto. Logo abaixo estão a tela quando o modo é escolhido. A máquina já está funcionando.
 
 ![Demo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/demo.png)
 ![cronológico](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/cronologico.png)
 ![Fixo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/fixo.png)
 ![fotossensível](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/fixo.png)
 
-A tela inicial contém os modos de funcionamento do projeto para ser escolhido. Quando selecionado, apresenta uma breve explanação do funcionamento.
-
-
 ##### Monitorando a potência
+ A terceira aba apresentará os dados de potência, tensão e corrente produzidos pelo painel fotovoltaico em tempo real, caso a conexão esteja estabelecida.
+ 
+ ![potencia](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/dados.png)
+ 
+## Utilizando o site do Sunflower engine
 
-### Utilizando o site do Sunflower engine
-
-#### Monitorando a potência com os valores
-
-#### Alterando o estado da placa
-
+O site do Sunflower Engine permite que o usuário tenha acesso remoto às informações atualizadas de produção da máquina, apenas sendo necessário conexão com a internet. Existem três expositores, um para cada informação, sendo eles: Tensão, Corrente e Potência. A partir dessas informações, o usuário pode decidir modificar o modo de funcionamento da estrutura do projeto.
 ### Informações Técnicas
 
 #### Materiais
