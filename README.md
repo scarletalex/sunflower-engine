@@ -86,7 +86,7 @@ O site do Sunflower Engine permite que o usuário tenha acesso remoto às inform
 #### Materiais
 
 - [2 Servos SG90] 
-- [Microcontrolador ESP8266]
+- [Microcontrolador ESP32]
 - [4 Ldrs 10mm]
 - [4 Resistores de 10㏀]
 - [1 Resistor 220Ω]
