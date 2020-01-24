@@ -66,7 +66,7 @@ Nosso protótipo conta com dois eixos. Isso significa que ele é capaz de se inc
 ![conexao](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/Conex%C3%A3o%5D.png)
 
 ##### Escolhendo o modo de funcionamento
- Na primeira aba, a tela inicial contém os modos de funcionamento do projeto para serem escolhidos. Quando selecionado um deles, é apresentada uma breve explanação do modo de funcionamento escolhido e mudará o estado de funcionamento da estrutura do projeto. Logo abaixo estão a tela quando o modo é escolhido. A máquina já está funcionando.
+ Na primeira aba, a tela inicial contém os modos de funcionamento do projeto para serem escolhidos. Quando selecionado um deles, é apresentada uma breve explanação do modo de funcionamento escolhido e mudará o estado de funcionamento da estrutura do projeto. Logo abaixo estão as telas quando o modo é escolhido. A máquina já está funcionando.
 
 ![Demo](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/demo.png)
 ![cronológico](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/cronologico.png)
