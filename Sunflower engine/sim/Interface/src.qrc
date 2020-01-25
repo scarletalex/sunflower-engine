@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>painel.png</file>
+    </qresource>
+</RCC>

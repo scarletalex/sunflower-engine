@@ -1,0 +1,10 @@
+
+https://git.heroku.com/sunflower-engine.git
+https://sunflower-engine.herokuapp.com/
+
+heroku pass - #Star34483
+
+git init .
+git add .
+git commit -m "sim"
+git push heroku master
