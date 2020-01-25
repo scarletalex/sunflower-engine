@@ -15,10 +15,10 @@ Aplicação do Sunflower Engine com a framework Qt e HTML, além do microcontrol
     * [Monitorando a potência](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#monitorando-a-pot%C3%AAncia)
   * [Utilizando o site do Sunflower engine](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#utilizando-o-site-do-sunflower-engine)
   * [Informações técnicas](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#informa%C3%A7%C3%B5es-t%C3%A9cnicas)
-    * [Materiais](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#materiais)
     * [O Circuito](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-circuito)
+    * [Materiais](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#materiais)
     * [A Página Web](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#a-p%C3%A1gina-web)
-    * [O Software para Desktop](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-software-para-desktop)
+    * [O Software para computador](https://github.com/scarletalex/sunflower-engine#o-software-para-computador)
 * [Obrigado!](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#obrigado)
     
 ## O que é Sunflower Engine?
@@ -90,7 +90,7 @@ O site do Sunflower Engine permite que o usuário tenha acesso remoto às inform
 
 ![web](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/web.png)
 
-###Informações Técnicas
+### Informações Técnicas
 
 #### Materiais
 
