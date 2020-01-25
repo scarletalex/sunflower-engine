@@ -98,11 +98,9 @@ O site do Sunflower Engine permite que o usuário tenha acesso remoto às inform
 - [LDR]
 - [LED]
 - [Módulo Sensor de Tensão] 
-- [Mini protoboard]
-
-
 
 #### O Circuito
+![circuito](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/Circuito.png)
 
 #### A Página Web
 
