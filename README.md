@@ -27,9 +27,9 @@ Aplicação do Sunflower Engine com a framework Qt e HTML, além do microcontrol
 
  ![painel](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/sequence6_dU9SXFLBCy.gif)
 
- Os painéis fixos são a maneira mais barata para isso. Tipicamente os painéis solares são instalados com a face voltada para norte ou sul cartográfico (dependendo do hemisfério onde se encontra) e com uma inclinação abaixo da latitude local. Isso garante que a produção energética anual seja boa, mas não significa que os painéis estejam gerando tanta energia quanto possível. Isso acontece devido ao fato que as células que compõe um painel solar só atingem seu pico de produção quando o ângulo de incidência dos raios solares é perpendicular à superfície desta célula. 
+ Os painéis fixos são a maneira mais barata de aplicar essa tecnologia. Tipicamente os painéis solares são instalados com a face voltada para norte ou sul cartográfico (dependendo do hemisfério onde se encontra) e com uma inclinação abaixo da latitude local. Isso garante que a produção energética anual seja boa, mas não significa que os painéis estejam gerando tanta energia quanto possível. Isso acontece devido ao fato que as células que compõe um painel solar só atingem seu pico de produção quando o ângulo de incidência dos raios solares é perpendicular à superfície desta célula. 
 
- E essa é a proposta do nosso projeto, fazer com que as células estejam voltadas para o Sol a todo momento, rastreando-o. O Sunflower Engine é um rastreador solar que buscará maximizar a eficiência da produção energética da célula fotovoltaica. Além disso, é possível medir sua eficiência monitorando a corrente e tensão para adquirir a potência produzida.
+ E essa é a proposta do nosso projeto, fazer com que as células estejam voltadas para o Sol a todo momento, rastreando-o. O Sunflower Engine é um rastreador solar que buscará maximizar a eficiência da produção energética da célula fotovoltaica. Além disso, é possível medir sua eficiência monitorando a corrente e tensão para aferir a potência produzida.
 
 
 
