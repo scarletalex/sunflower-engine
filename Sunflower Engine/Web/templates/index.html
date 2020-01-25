@@ -3,41 +3,87 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    </head>
-    
-    <body>
-
-        <script>
-            let repetir = setInterval(baixarDados,500)
-            function baixarDados(){
-                fetch("https://stellar-engine.herokuapp.com/download")
-                    .then(resp=>resp.json())
-                    .then(json=>atualizarPagina(json))
-            }
-            function atualizarPagina(json){
-                let sensor = document.getElementById("valor")
-                if( "LDR" in json){
-                    sensor.innerHTML = json["LDR"]
-                }
-            }
-        </script>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         
-        <h1 id="ldr" > Oi HTML! </h1>
-    
+        <title>Sunflower Engine</title>
+
+        <meta name="description" content="Source code generated using layoutit.com">
+        <meta name="Maria Fernanda" content="LayoutIt!">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>    
         
-       
-    
+    </head>
+    <body>
+
+        <script>
+            let repetir = setInterval(baixarDados,500)
+            function baixarDados(){
+                fetch("https://sunflower-engine.herokuapp.com/download")
+                    .then(resp=>resp.json())
+                    .then(json=>atualizarPagina(json))
+            }
+            function atualizarPagina(json){
+                if("VOLT" in json){
+                    document.getElementById("volt").innerHTML = json["VOLT"] + " Volts"
+                }
+                if("AMPER" in json){
+                    document.getElementById("amper").innerHTML = json["AMPER"] + " Amperes"
+                }
+                if("WATTS" in json){
+                    document.getElementById("watts").innerHTML = json["WATTS"] + " Watts"
+                }
+            }
+        </script>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="jumbotron">
+                <h1>
+                    Sunflower Engine
+                </h1>
+                <p>
+                    Com a necessidade de tornar a matriz energética global cada vez mais sustentável, os painéis fotovoltaicos cada dia mais vêm sendo utilizados para a produção de energia elétrica.
+                    O nosso projeto além de buscar a máxima eficiência desse processo, permite monitorar a produção de energia via web e interface gráfica em tempo real.
+                </p>
+                <p>
+                    <a class="btn btn-primary btn-large" href="https://github.com/scarletalex/sunflower-engine"> Leia mais na nossa página github</a> 
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>
+                        TENSÃO
+                    </h3>
+                    <p id ="volt">
+                        0
+                    </p>
+                
+                </div>
+                <div class="col-md-4">
+                    <h3>
+                        CORRENTE
+                    </h3>
+                    <p id = "amper">
+                        0
+                    </p>
+                
+                </div>
+                <div class="col-md-4">
+                    <h3>
+                        POTÊNCIA
+                    </h3>
+                    <p id = "watts">
+                        0
+                    </p>
+                </div>
+        </div>
+    </div>
+</div>
+
     </body>
-
-    
-
-    
-   
-
-
 </html>
