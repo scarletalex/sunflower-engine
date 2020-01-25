@@ -1,16 +1,4 @@
 
-
-/*********************************************************
- *  MIT License - Copyright (c) 2019 EduFreit4s
- *  
- *  Projeto: Rastreador solar com Arduino
- *  Nome: Estrelinha
- *  Autor: Eduardo Freitas
- *  Primeira versão: 04/08/2019
- *  Disponivel em: https://github.com/EduFreit4s/Projetos
- * 
-*********************************************************/
-
 #include "power.h"
 #include "ldr_sensor.h"
 #include "twoAxis.h"
