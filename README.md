@@ -1,5 +1,6 @@
 # Sunflower Engine
-Aplicação do Sunflower Engine com a framework Qt e HTML, além do microcontrolador ESP32.
+Aplicação do Sunflower Engine com a framework Qt e HTML, além do microcontrolador ESP32. Link da apresentação: https://prezi.com/view/ndihzhvzIkm6iVshLYSv/
+
 ## Sumário
 * [O que é o Sunflower Engine?](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-que-%C3%A9-sunflower-engine)
 * [Manual do Usuário](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#manual-do-usu%C3%A1rio)
@@ -100,12 +101,21 @@ O site do Sunflower Engine permite que o usuário tenha acesso remoto às inform
 - [Módulo Sensor de Tensão] 
 
 #### O Circuito
+
 ![circuito](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/Circuito.png)
+
+Utilizamos os sensores LDRs nas extremidades da célula fotovoltaica para realizar o processo de captação de informações da luminosidade, enviar para o ESP32 e, posteriormente, os servos realizarem movimentação da máquina. O módulo sensor de tensão é responsável por recolher os dados de tensão que serão exibidos e utilizados para calcular a corrente e potência. Um LED também é utilizado para mostrar a geração da célula fotovoltaica.
+
+Todos os componentes estão conectados ao ESP32, sendo este o grande responsável por receber e passar informações para o circuito, ou seja, para que ele funcione. Para monitorar os dados via página web, é necessário que o ESP32 esteja conectado à uma rede WiFi com internet. Contudo, o monitoramento também pode ser feito via aplicação de computador de modo offline.
 
 #### A Página Web
 
-#### O Software para Desktop
+Esta página web (http://sunflower-engine.herokuapp.com/) está hospedada gratuitamente no Heroku. Conhecimento de HTML e CSS foram utilizados para para poder organizar o site, além de JavaScript e Python, para reagir à eventos e fazer a comunicação com o software para computador e para a ESP32. A biblioteca Flask feita pela comunidade do Python também foi muito importante para o desenvolvimento da página web, no que tange a realização da comunicação e o deploy do servidor.
 
+#### O Software para computador
 
-(http://sunflower-engine.herokuapp.com/)
-(https://prezi.com/view/ndihzhvzIkm6iVshLYSv/)
+O software desenvolvido para computador a fim do usuário ter controle da nossa aplicação mesmo sem acesso à internet, foi utilizado a framework Qt junto com a IDE Qt Creator. A linguagem utilizada foi o C++ e ainda foi necessário a utilização de XML para editar a parte gráfica do programa.
+
+## Obrigado!
+
+Este projeto é resultado do empenho dos alunos **Gustavo Souza**, **Maria Fernanda** e **Victor Nunes**, bacharelandos em Engenharia Elétrica no IFPB - *campus* João Pessoa. Foi desenvolvido para a disciplina de Técnicas de Programação, ministrada pelo Dr. Patric Lacouth da Silva, com o objetivo de adquirição de nota parcial para a conclusão da disciplina em questão. Para quaisquer eventuais dúvidas ou *feedback*, os e-mails para contato são: gustavo.souza@academico.ifpb.edu.br; fernanda.aguiar@academico.ifpb.edu.br; victorramalho101@gmail.com. 
