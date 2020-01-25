@@ -5,20 +5,21 @@ Aplicação do Sunflower Engine com a framework Qt e HTML, além do microcontrol
 * [O que é o Sunflower Engine?](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-que-%C3%A9-sunflower-engine)
 * [Manual do Usuário](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#manual-do-usu%C3%A1rio)
   * [Como Funciona o Sunflower Engine?](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#como-funciona-o-sunflower-engine)
-    * [Modo Demo](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#modo-demo)
+    * [Modo Fotossensível](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#modo-fotossens%C3%ADvel)
     * [Modo Cronológico](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#modo-cronol%C3%B3gico)
+    * [Modo Demo](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#modo-demo)
     * [Modo Fixo](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#modo-fixo)
-    * [Modo rastreável](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#modo-rastre%C3%A1vel)
   * [Utilizando o software do Sunflower Engine](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#utilizando-o-software-do-sunflower-engine)
+    * [Estabelecendo a conexão](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#estabelecendo-a-conex%C3%A3o)
+    * [Escolhendo o modo de funcionamento](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#escolhendo-o-modo-de-funcionamento)
     * [Monitorando a potência](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#monitorando-a-pot%C3%AAncia)
-  * [Utilizando o site do Sunflower Engine](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#utilizando-o-site-do-sunflower-engine)
-    * [Monitorando a potência com os valores](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#monitorando-a-pot%C3%AAncia-com-os-valores)
-    * [Alterando o estado da placa](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#alterando-o-estado-da-placa)
+  * [Utilizando o site do Sunflower engine](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#utilizando-o-site-do-sunflower-engine)
   * [Informações técnicas](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#informa%C3%A7%C3%B5es-t%C3%A9cnicas)
     * [Materiais](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#materiais)
     * [O Circuito](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-circuito)
     * [A Página Web](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#a-p%C3%A1gina-web)
     * [O Software para Desktop](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#o-software-para-desktop)
+* [Obrigado!](https://github.com/scarletalex/sunflower-engine/blob/master/README.md#obrigado)
     
 ## O que é Sunflower Engine?
 
@@ -89,16 +90,16 @@ O site do Sunflower Engine permite que o usuário tenha acesso remoto às inform
 
 ![web](https://github.com/scarletalex/sunflower-engine/blob/master/Figuras%20do%20manual/web.png)
 
-### Informações Técnicas
+###Informações Técnicas
 
 #### Materiais
 
-- [Microcontrolador ESP32]
-- [Célula Fotovoltaica]
-- [Servos SG90]
-- [LDR]
-- [LED]
-- [Módulo Sensor de Tensão] 
+- Microcontrolador ESP32
+- Célula Fotovoltaica
+- Servos SG90
+- LDR
+- LED
+- Módulo Sensor de Tensão
 
 #### O Circuito
 
